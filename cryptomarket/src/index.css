@@ -1,0 +1,145 @@
+/* /* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+.header {
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 700;
+  height: 30px;
+
+  padding-left: 35%;
+  border-style: double;
+  box-sizing: border-box;
+  background-color: rgb(180, 52, 52);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+  box-sizing: border-box;
+  font-weight: 700;
+  font-size: 1em;
+  margin: 2px;
+}
+.news-feed{
+  background-color: rgb(170, 60, 60);
+  font-style: oblique;
+  color:aliceblue;
+   box-shadow: 0 10px 10px rgb(0 0 0 / 0.2); }
+
+
+.currency-converter{
+ background-color: black;
+ color: blanchedalmond;
+ padding: 10px;
+ margin: 5px;
+ box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+ text-align: center;
+}
+.app {
+  background: cover;
+  max-width: 70%;
+  justify-content: center;
+  margin-left: 200px;
+
+
+}
+
+.exchange {
+  background-color: rgb(82, 58, 58);
+  font-size: 30px;
+  font-weight: 400;
+  color: aliceblue;
+}
+button:hover {
+  background-color: coral;
+}
+
+
+.coin-container{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  color:blanchedalmond;
+  height:-10px;
+
+}
+.coin-row {
+  display: flex;
+  flex-direction: row;
+  justify-items: start;
+  align-items: center;
+  height: 50px;
+  border-bottom: 1px solid brown;
+  width: 900px;
+}
+.coin {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-right: 24px;
+  min-width: 300px;
+}
+
+.coin h1 {
+  font-size: 20px;
+
+  width: 10px;
+  margin-left: 40px;
+  margin-right: 10px;
+  margin-bottom: 40px;
+  padding-top: 15px;
+}
+
+
+
+.coin img{
+  height:30px;
+  width:30px;
+  margin-right:10px;
+
+}
+.coin-symbol{
+  display:flex;
+  margin-left: 200px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.coin-data{
+  display:flex;
+  text-align:center;
+  justify-content: space-between;
+  width:100%
+}
+.coin-price{
+  margin-left: 120px;
+  width:130px;
+}
+.coin-volume{
+  width:250px;
+}
+
+.main-container{
+ background-image: url("images/sunandabg1.jpeg");
+
+}
+.coin-text{
+  color: antiquewhite;
+  
+}
+.coin-input{
+  height: 20px;
+}
+a{
+  color: rgb(19, 20, 20);
+}  
